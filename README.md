@@ -2,13 +2,13 @@
 ### Title: Network Intrusion Detection Using Snort IDS  
 
 ## Project Overview  
-This project focuses on implementing and analyzing **Snort**, an open-source Intrusion Detection System (IDS), to detect and analyze network intrusions in real time.  
-The objective was to understand Snort’s working principles, configure custom rules, and monitor network traffic for malicious patterns.
+This project focuses on implementing and analyzing **Snort**, an open-source Network Intrusion Detection System (NIDS), to detect and analyze network intrusions in real time.  
+The project was implemented on **Kali Linux** to understand Snort’s working principles, configure custom rules, and monitor network traffic for malicious patterns.
 
 ---
 
 ## Objectives  
-- Install and configure Snort IDS on Ubuntu.  
+- Install and configure Snort IDS on Kali Linux.  
 - Understand signature-based intrusion detection.  
 - Create and test custom Snort rules.  
 - Analyze and interpret alerts for benign and malicious traffic.  
@@ -18,9 +18,9 @@ The objective was to understand Snort’s working principles, configure custom r
 ## Methodology  
 
 ### Step 1: Environment Setup  
-- Installed **Snort** on Ubuntu VM.  
+- Installed and configured **Snort IDS on Kali Linux**.  
 - Updated dependencies and configured the network interface in promiscuous mode.  
-- Verified Snort installation using:  
+- Verified installation using:  
   ```
   snort -V
   snort -T -c /etc/snort/snort.conf
@@ -47,7 +47,7 @@ The objective was to understand Snort’s working principles, configure custom r
   - Snort installation
   - Rule configuration
   - Alert generation
-- Compiled the results into a detailed report (uploaded in this repository).  
+- Compiled the results into a detailed report (`project-report.pdf`) uploaded in this repository.  
 
 ---
 
@@ -59,14 +59,14 @@ The objective was to understand Snort’s working principles, configure custom r
 ---
 
 ## Key Learnings  
-- Gained hands-on experience with Snort IDS configuration and alert analysis.  
+- Gained hands-on experience with Snort NIDS configuration and alert analysis.  
 - Understood the significance of intrusion detection in SOC environments.  
 - Learned how to write and implement Snort rules effectively.  
 
 ---
 
 ## Repository Contents  
-- `project-report.pdf` – Full report documentation.  
+- `project-report.pdf` – Full project report documentation.  
 - `screenshots/` – Evidence of setup, rule creation, and detection.  
 - `README.md` – Project overview and methodology.  
 
