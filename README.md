@@ -74,4 +74,4 @@ The project was implemented on **Kali Linux** to understand Snort’s working pr
 
 ## Author  
 **Maria Jose**  
-Cybersecurity Intern – Infotact
+Cybersecurity Intern – Infotact Solutions
